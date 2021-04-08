@@ -1,1 +1,9 @@
 # Category-Prediction
+
+CNN : CNN’s are one of the widely used networks because of its capability to capture the spatial patterns. In NLP, CNN’s are well able to look for n-grams in the data. We have used word Embeddings as the input to the CNN model, on which a CNN layer is used. To reduce the dimensions and to ensure that only important information is passed to the next dense layers for classification a mapool layer is added. Hyperparameter Tuning was done for the embedding dimension, kernel size, filter numbers, dropout ratio and batch size.
+
+LSTM : In Natural Language, it is the Sequential Arrangement of the words that give meaning to the text. LSTM are one of the most popularly enjoyed networks used in the text classification to capture the sequence of the text. We have used the Bidirectional LSTM (BiLSTM) which gives superiority to the ordinary LSTM by capturing the sequences from backward direction also in addition to the forward direction. The output from the BiLSTM is forwarded to the dense layer for the classification. 
+
+C-LSTM : C-LSTM models take advantage of both the CNN and BiLSTM. A CNN layer followed by the BiLSTM is used here. In this model spatial patterns extracted using the CNN are passed to the BiLSTM, enabling it to capture the sequence on a broader view. 
+
+Very Deep CNN (VDCNN) : In Computer Vision Deeper CNN’s have always been advantageous in classification tasks. Some works using the same have also been done in Classification tasks in NLP. We have implemented the Deeper CNN’s of varying length and have analysed their performance. As the network goes deeper, it becomes harder to train because of the vanishing gradient problem and hence need larger dataset and more training time. A residual connection can help in maintaining the flow of gradients and can make the training of VDCNN easier in deficiency of training data also. 
