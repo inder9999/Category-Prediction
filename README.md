@@ -1,6 +1,7 @@
 # Category-Prediction
 
-Pre-processing and Visualization of Data
+#Pre-processing and Visualization of Data
+
 1. Description was cleaned, unuseful symbols and characters were removed
 2. Primary Category was extracted from the product category tree
 3. After extracting the Primary Category, 266 unique categories were obtained with a very uneven distribution.
