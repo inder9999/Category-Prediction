@@ -23,9 +23,9 @@ Approaches
 
 ML Models : The following Machine Learning models were used with input in the form of Tf-IDF. 
 
-Naive Bayes 
-Support Vector Machine 
-Logistic Regression 
+1. Naive Bayes 
+2. Support Vector Machine 
+3. Logistic Regression 
 
 CNN : CNN’s are one of the widely used networks because of its capability to capture the spatial patterns. In NLP, CNN’s are well able to look for n-grams in the data. I have used word Embeddings as the input to the CNN model, on which a CNN layer is used. To reduce the dimensions and to ensure that only important information is passed to the next dense layers for classification a mapool layer is added. Hyperparameter Tuning was done for the embedding dimension, kernel size, filter numbers, dropout ratio and batch size.
 
@@ -108,19 +108,21 @@ Final results for classification with 27 categories.
 Final results for classification with 27 categories using oversampling.
 
 ![](IMAGES/RNNCNN_27_OS.PNG)
+
+
 References
 
-Deep Learning Based Text Classification: A Comprehensive Review ( https://arxiv.org/pdf/2004.03705.pdf )
-A Survey on Text Classification: From Shallow to Deep Learning  ( https://arxiv.org/pdf/2008.00364.pdf )
-Kim, Yoon. (2014). Convolutional Neural Networks for Sentence Classification. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing. 10.3115/v1/D14-1181. 
-Kowsari, Kamran & Jafari Meimandi, Kiana & Heidarysafa, Mojtaba & Mendu, Sanjana & Barnes, Laura & Brown, Donald. (2019). Text Classification Algorithms: A Survey. ( https://arxiv.org/pdf/1904.08067. pdf )
-Conneau, Alexis & Schwenk, Holger & Barrault, Loïc & Lecun, Yann. (2017). Very Deep Convolutional Networks for Text Classification. 1107-1116. 10.18653/v1/E17-1104. ( https://arxiv.org/abs/1606.01781)
-Character-level Convolutional Networks for Text Classification. ( https://arxiv.org/abs/1509.01626 )
-Zhou, Peng & Shi, Wei & Tian, Jun & Qi, Zhenyu & Li, Bingchen & Hao, Hongwei & Xu, Bo. (2016). Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification. 207-212. 10.18653/v1/P16-2034. 
-Yang, Zichao & Yang, Diyi & Dyer, Chris & He, Xiaodong & Smola, Alex & Hovy, Eduard. (2016). Hierarchical Attention Networks for Document Classification. 1480-1489. 10.18653/v1/N16-1174. (https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf )
-Vaswani, Ashish & Shazeer, Noam & Parmar, Niki & Uszkoreit, Jakob & Jones, Llion & Gomez, Aidan & Kaiser, Lukasz & Polosukhin, Illia. (2017). Attention Is All You Need.       ( https://arxiv.org/abs/1706.03762 )
-Shiyao, Wang & Huang, Minlie & Deng, Zhidong. (2018). Densely Connected CNN with Multi-scale Feature Attention for Text Classification. 4468-4474. 10.24963/ijcai.2018/621.  ( https://www.ijcai.org/proceedings/2018/0621.pdf )
-Basiri, Ehsan & Nemati, Shahla & Abdar, Moloud & Cambria, Erik & Acharya, U Rajendra. (2020). ABCDM: An Attention-based Bidirectional CNN-RNN Deep Model for sentiment analysis. Future Generation Computer Systems. 115. 10.1016/j.future.2020.08.005. 
-Johnson, Rie & Zhang, Tong. (2017). Deep Pyramid Convolutional Neural Networks for Text Categorization. 562-570. 10.18653/v1/P17-1052.  ( https://riejohnson.com/paper/dpcnn-acl17.pdf )
-Kowsari, Kamran & Heidarysafa, Mojtaba & Brown, Donald & Jafari Meimandi, Kiana & Barnes, Laura. (2018). RMDL: Random Multimodel Deep Learning for Classification. 19-28. 10.1145/3206098.3206111. ( https://arxiv.org/pdf/1805.01890 )
+1. Deep Learning Based Text Classification: A Comprehensive Review ( https://arxiv.org/pdf/2004.03705.pdf )
+2. A Survey on Text Classification: From Shallow to Deep Learning  ( https://arxiv.org/pdf/2008.00364.pdf )
+3. Kim, Yoon. (2014). Convolutional Neural Networks for Sentence Classification. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing. 10.3115/v1/D14-1181. 
+4. Kowsari, Kamran & Jafari Meimandi, Kiana & Heidarysafa, Mojtaba & Mendu, Sanjana & Barnes, Laura & Brown, Donald. (2019). Text Classification Algorithms: A Survey. (https://arxiv.org/pdf/1904.08067. pdf )
+5. Conneau, Alexis & Schwenk, Holger & Barrault, Loïc & Lecun, Yann. (2017). Very Deep Convolutional Networks for Text Classification. 1107-1116. 10.18653/v1/E17-1104. ( https://arxiv.org/abs/1606.01781)
+6. Character-level Convolutional Networks for Text Classification. ( https://arxiv.org/abs/1509.01626 )
+7. Zhou, Peng & Shi, Wei & Tian, Jun & Qi, Zhenyu & Li, Bingchen & Hao, Hongwei & Xu, Bo. (2016). Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification. 207-212. 10.18653/v1/P16-2034. 
+8. Yang, Zichao & Yang, Diyi & Dyer, Chris & He, Xiaodong & Smola, Alex & Hovy, Eduard. (2016). Hierarchical Attention Networks for Document Classification. 1480-1489. 10.18653/v1/N16-1174. (https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf )
+9. Vaswani, Ashish & Shazeer, Noam & Parmar, Niki & Uszkoreit, Jakob & Jones, Llion & Gomez, Aidan & Kaiser, Lukasz & Polosukhin, Illia. (2017). Attention Is All You Need.       ( https://arxiv.org/abs/1706.03762 )
+10. Shiyao, Wang & Huang, Minlie & Deng, Zhidong. (2018). Densely Connected CNN with Multi-scale Feature Attention for Text Classification. 4468-4474. 10.24963/ijcai.2018/621.  ( https://www.ijcai.org/proceedings/2018/0621.pdf )
+11. Basiri, Ehsan & Nemati, Shahla & Abdar, Moloud & Cambria, Erik & Acharya, U Rajendra. (2020). ABCDM: An Attention-based Bidirectional CNN-RNN Deep Model for sentiment analysis. Future Generation Computer Systems. 115. 10.1016/j.future.2020.08.005. 
+12. Johnson, Rie & Zhang, Tong. (2017). Deep Pyramid Convolutional Neural Networks for Text Categorization. 562-570. 10.18653/v1/P17-1052.  ( https://riejohnson.com/paper/dpcnn-acl17.pdf )
+13. Kowsari, Kamran & Heidarysafa, Mojtaba & Brown, Donald & Jafari Meimandi, Kiana & Barnes, Laura. (2018). RMDL: Random Multimodel Deep Learning for Classification. 19-28. 10.1145/3206098.3206111. ( https://arxiv.org/pdf/1805.01890 )
 
