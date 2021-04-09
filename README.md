@@ -1,5 +1,7 @@
 # Category-Prediction
 
+![](IMAGES/266_data.PNG)
+
 CNN : CNN’s are one of the widely used networks because of its capability to capture the spatial patterns. In NLP, CNN’s are well able to look for n-grams in the data. We have used word Embeddings as the input to the CNN model, on which a CNN layer is used. To reduce the dimensions and to ensure that only important information is passed to the next dense layers for classification a mapool layer is added. Hyperparameter Tuning was done for the embedding dimension, kernel size, filter numbers, dropout ratio and batch size.
 
 LSTM : In Natural Language, it is the Sequential Arrangement of the words that give meaning to the text. LSTM are one of the most popularly enjoyed networks used in the text classification to capture the sequence of the text. We have used the Bidirectional LSTM (BiLSTM) which gives superiority to the ordinary LSTM by capturing the sequences from backward direction also in addition to the forward direction. The output from the BiLSTM is forwarded to the dense layer for the classification. 
