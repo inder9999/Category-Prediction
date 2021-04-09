@@ -1,6 +1,6 @@
 # Category-Prediction
 
-#Pre-processing and Visualization of Data
+# Pre-processing and Visualization of Data
 
 1. Description was cleaned, unuseful symbols and characters were removed
 2. Primary Category was extracted from the product category tree
@@ -20,7 +20,8 @@ b. Only those categories were kept which had samples more than 10. This gave 27 
 5. To make the data balanced oversampling techniques were used, whose results are also discussed below.
 6. Tf-IDF matrix was obtained for the cleaned data for ML models.
 7. The text was tokenized and converted into high-dimensional word embeddings to be fed into DL models.
-Approaches
+
+# Approaches
 
 ML Models : The following Machine Learning models were used with input in the form of Tf-IDF. 
 
@@ -67,7 +68,7 @@ Transformer based Models:
 
 
 
-Results :
+# # Results :
 For evaluation following metric were used :-
 Accuracy
 Precision
@@ -111,7 +112,7 @@ Final results for classification with 27 categories using oversampling.
 ![](IMAGES/RNNCNN_27_OS.PNG)
 
 
-References
+# References
 
 1. Deep Learning Based Text Classification: A Comprehensive Review ( https://arxiv.org/pdf/2004.03705.pdf )
 2. A Survey on Text Classification: From Shallow to Deep Learning  ( https://arxiv.org/pdf/2008.00364.pdf )
