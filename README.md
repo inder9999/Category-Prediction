@@ -9,6 +9,7 @@
 ![](IMAGES/266_data.PNG)
 
 4. For training purposes, the no. of categories were reduced. It was done in th following way: 
+
 a. Only those categories were kept which had samples more than 100. This gave 18 categories in total and the distribution was as shown.
 
 ![](IMAGES/18_data.PNG)
@@ -102,6 +103,10 @@ Language Model based Classifier
 Confusion matrix for best performing method
 
 ![](IMAGES/BERT_CONF.PNG)
+
+ROC Curve for best performing method
+
+![](IMAGES/BERT_ROC.PNG)
 
 Final results for classification with 27 categories.
 
