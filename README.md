@@ -106,7 +106,7 @@ Confusion matrix for best performing method
 
 ROC Curve for best performing method
 
-![](IMAGES/BERT_ROC.PNG)
+![](IMAGES/bert_ROC.png)
 
 Final results for classification with 27 categories.
 
