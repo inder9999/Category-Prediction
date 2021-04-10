@@ -147,4 +147,26 @@ Final results for classification with 27 categories using oversampling.
 11. Basiri, Ehsan & Nemati, Shahla & Abdar, Moloud & Cambria, Erik & Acharya, U Rajendra. (2020). ABCDM: An Attention-based Bidirectional CNN-RNN Deep Model for sentiment analysis. Future Generation Computer Systems. 115. 10.1016/j.future.2020.08.005. 
 12. Johnson, Rie & Zhang, Tong. (2017). Deep Pyramid Convolutional Neural Networks for Text Categorization. 562-570. 10.18653/v1/P17-1052.  ( https://riejohnson.com/paper/dpcnn-acl17.pdf )
 13. Kowsari, Kamran & Heidarysafa, Mojtaba & Brown, Donald & Jafari Meimandi, Kiana & Barnes, Laura. (2018). RMDL: Random Multimodel Deep Learning for Classification. 19-28. 10.1145/3206098.3206111. ( https://arxiv.org/pdf/1805.01890 )
+14. “Deep pyramid convolutional neural networks for text categorization,” in Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), 2017, pp. 562–570
+15. W. Yin, H. Schütze, B. Xiang, and B. Zhou, “Abcnn: Attention-based convolutional neural network for modeling sentence pairs,” Transactions of the Association for Computational Linguistics, vol. 4, pp. 259–272, 2016.
+16. L. Yao, C. Mao, and Y. Luo, “Graph convolutional networks for text classification,” in Proceedings of the AAAI Conference on Artificial
+Intelligence, vol. 33, 2019, pp. 7370–7377
+17. C. Zhou, C. Sun, Z. Liu, and F. Lau, “A c-lstm neural network for text classification,” arXiv preprint arXiv:1511.08630, 2015
+18.  Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis, L. Zettlemoyer, and V. Stoyanov, “Roberta: A robustly optimized
+bert pretraining approach,” arXiv preprint arXiv:1907.11692, 2019
+19. Z. Lan, M. Chen, S. Goodman, K. Gimpel, P. Sharma, and R. Soricut, “Albert: A lite bert for self-supervised learning of language
+representations,” arXiv preprint arXiv:1909.11942, 2019.
+20. K. Clark, M.-T. Luong, Q. V. Le, and C. D. Manning, “Electra: Pre-training text encoders as discriminators rather than generators,” arXiv
+preprint arXiv:2003.10555, 2020.
+21. Efficient Transformers: A Survey (https://arxiv.org/abs/2009.06732)
+22.https://scikit-learn.org/
+23.https://keras.io/
+24.https://www.tensorflow.org/
+25.https://huggingface.co/transformers/
+26.https://github.com/moloud1987/ABCDM
+27.https://github.com/arunarn2/HierarchicalAttentionNetworks
+28.https://github.com/TeamLab/text-capsule-network
+29. 
+
 
