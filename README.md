@@ -113,7 +113,7 @@ Language Model based Classifier
 
 Capsule Network based Classifier
 
-
+![](IMAGES/CAPSNET.PNG)
 
 Confusion matrix for best performing method
 
