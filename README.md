@@ -82,10 +82,10 @@ Classifier based on Capsule Network :
 
 # Results :
 For evaluation following metric were used :-
-Accuracy
-Precision
-Recall
-F1 score
+1. Accuracy
+2. Precision
+3. Recall
+4. F1 score
 
 Final results for classification with 18 categories.
 
