@@ -132,6 +132,14 @@ Final results for classification with 27 categories using oversampling.
 ![](IMAGES/RNNCNN_27_OS.PNG)
 
 
+# Future Works
+
+1. A possible direction for improvement could be Data Over Sampling Techniques for Imbalanced classes. Techniques like SMOTE generates samples by averging the nearest training samples, but it was found that such techniques can't be applied to text presented through word embeddings as they carry semantic information . Generative models may help in this task.
+2. Network Arhitecture with multiple techniques and Hybrid features have shown superior results. So such hyrid networks could be searched for improving performance.  
+3. Graph neural networks can also be tried. Recently some work have been done on text classification using Graph Convolution Networks and Graph Attention Networks, which have shown good performance than conventional neural networks.
+
+
+
 # References
 
 1. Deep Learning Based Text Classification: A Comprehensive Review ( https://arxiv.org/pdf/2004.03705.pdf )
@@ -160,13 +168,25 @@ representations,” arXiv preprint arXiv:1909.11942, 2019.
 20. K. Clark, M.-T. Luong, Q. V. Le, and C. D. Manning, “Electra: Pre-training text encoders as discriminators rather than generators,” arXiv
 preprint arXiv:2003.10555, 2020.
 21. Efficient Transformers: A Survey (https://arxiv.org/abs/2009.06732)
-22.https://scikit-learn.org/
-23.https://keras.io/
-24.https://www.tensorflow.org/
-25.https://huggingface.co/transformers/
-26.https://github.com/moloud1987/ABCDM
-27.https://github.com/arunarn2/HierarchicalAttentionNetworks
-28.https://github.com/TeamLab/text-capsule-network
-29. 
+
+22. https://scikit-learn.org/
+
+23. https://keras.io/
+
+24. https://www.tensorflow.org/
+
+25. https://huggingface.co/transformers/
+
+26. https://github.com/gentaiscool/lstm-attention
+
+27. https://github.com/moloud1987/ABCDM
+
+28. https://github.com/arunarn2/HierarchicalAttentionNetworks
+
+29. https://github.com/TeamLab/text-capsule-network
+
+30. https://github.com/chaitjo/character-level-cnn
+31. https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/
+32. https://towardsdatascience.com/social-media-sentiment-analysis-part-ii-bcacca5aaa39
 
 
