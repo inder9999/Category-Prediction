@@ -46,7 +46,13 @@ Char CNN: The Character-level CNN takes input in the form of characters represen
 
 AttBi-LSTM : AttBi-LSTM model consists of a Bidirectional LSTM network, which is followed by an attention layer. Here, the Bi-LSTM layer works like an encoder, and the return sequence is of the same length as that of the input. Attention mechanism gives attention (or weight) to the encoded sequence, which is added and passed forward to the dense layers for classification.
 
+ARC (Attention based RCNN) :
+
+ACBiLSTM :
+
 HAN: Hierarchical Attention Network (HAN) works in two hierarchical phases, consisting of an AttBi-LSTM in each phase. Here, rather than passing the text directly as a sequence of words, it is passed as a sequence of sentences, which themselves are sequences of words. In the first phase, individual sentences are passed through an AttBi-LSTM unit, giving the sentences in an encoded form. This attention-weighted sum of sequences is then returned from the Bi-LSTM. Now, the encoded sentences in each text are considered as a sequence, and are passed through the second AttBi-LSTM unit. At last, dense layers are added to the model for classification.
+
+Transformer :
 
 Densely-connected CNN with Multi-scale feature attention: Inspired from Computer Vision tasks, this method is based upon the dense connections and attention-weighted multi-scale features. Input text is represented as a planar array, which is passed through densely-connected CNN layers to obtain multi-scale high-dimensional features. These multi-scale features are pooled down in a manner such that their dimensions become the same. The features are weighted by the attention, and are added before passing through the dense layers for classification.
 
@@ -60,11 +66,16 @@ ABCDM : Attention-based Bidirectional CNN-RNN Deep Model (ABCDM) is based on mul
 5. The pooled results are concatenated and passed through Dense layers for classification.
 
 
-Transformer based Models: 
+ Classifier based on language models : The following Language Models were used for classification task
+ 
+
+1. Bert
+2. Electra
+3. Roberta
+4. Albert
 
 
-
-
+Classifier based on Capsule Network :
 
 
 
@@ -99,6 +110,10 @@ Models Based on Attention mechanism
 Language Model based Classifier
 
 ![](IMAGES/LANG_18.PNG)
+
+Capsule Network based Classifier
+
+
 
 Confusion matrix for best performing method
 
