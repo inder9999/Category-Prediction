@@ -137,7 +137,9 @@ Final results for classification with 27 categories using oversampling.
 1. A possible direction for improvement could be Data Over Sampling Techniques for Imbalanced classes. Techniques like SMOTE generates samples by averging the nearest training samples, but it was found that such techniques can't be applied to text presented through word embeddings as they carry semantic information . Generative models may help in this task.
 2. Network Arhitecture with multiple techniques and Hybrid features have shown superior results. So such hyrid networks could be searched for improving performance.  
 3. Graph neural networks can also be tried. Recently some work have been done on text classification using Graph Convolution Networks and Graph Attention Networks, which have shown good performance than conventional neural networks.
-
+4. As the network goes deeper (in models like VDCNN, ABCDM) it brings the problem of vanishing gradients and it becomes worse in case of a limited training dataset. In such cases Dilated CNN could be experimented instead of CNNs, which have improved performance tremendously in computer vision applications. 
+5. Building better routing algorithms in Capsule networks can also be direction for improving the performance.
+6. It have been found that Memory networks can remember the sequences of larger length and hence can improve the performance for classifying the larger sequences. 
 
 
 # References
